@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+
+/* colore usato per il testo color: #b3b3b3; */
+
+
 /* Utility classes */
 .d-flex {
   display: flex;
@@ -36,7 +40,6 @@ aside.main_menu {
   overflow-y: auto;
   overflow-x: hidden;
   padding-top: 60px;
-  /* margin-top: 60px; */
   width: calc(100% - 230px);
 }
 .subscribe_banner {
@@ -46,20 +49,38 @@ aside.main_menu {
   width: calc(100% - 230px);
   height: 60px;
   background-color: #8a2be2a1;
+}
 
+.item {
+  width: 100%;
+  max-width: 200px;
+  margin: 10px;
+}
+.border-radius{
+  border-radius: 50%;
+}
+a{
+  margin: 10px;
 }
 /* Covers section */
-.item {
-  width: 150px;
-  height: 150px;
-  background-color: red;
+
+#recently_played h2,
+#created_for h2,p,
+#popular h2, p{
+  width: 100vw;
+  margin-left: 10px;
 }
 
+#recently_played,
+#created_for,
+#popular{
+  margin-top: 20px;
+}
 
 /* Footer */
 footer#site_footer {
   background-color: yellowgreen;
-  height: 60px;
+  height: 90px;
   position: fixed;
   bottom: 0;
   left: 0;
