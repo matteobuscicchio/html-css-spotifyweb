@@ -35,7 +35,7 @@ aside.main_menu {
 }
 
 .covers_section {
-  background-color: aquamarine;
+  background-color: #141922;
   padding: 20px;;
   overflow-y: auto;
   overflow-x: hidden;
@@ -48,7 +48,8 @@ aside.main_menu {
   right: 0;
   width: calc(100% - 230px);
   height: 60px;
-  background-color: #8a2be2a1;
+  /* height: 90px; questa è l'altezza nella web app */
+  background-color: #080B12;
 }
 
 .item {
@@ -79,7 +80,7 @@ a{
 
 /* Footer */
 footer#site_footer {
-  background-color: yellowgreen;
+  background-color: #282828;
   height: 90px;
   position: fixed;
   bottom: 0;
