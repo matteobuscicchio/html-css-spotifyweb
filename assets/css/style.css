@@ -16,8 +16,10 @@
   flex-wrap: wrap;
 }
 
-h2, h3, p, a{
+.title{
   width: 100vw;
+}
+h2, h3, p, a{
   margin-left: 10px;
   line-height: 2em;
 }
